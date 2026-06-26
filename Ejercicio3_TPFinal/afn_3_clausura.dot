@@ -1,0 +1,15 @@
+digraph AFN {
+    rankdir=LR;
+    node [style=filled, fillcolor=white];
+    inicio [shape=point];
+    inicio -> N2;
+    N2 [shape=circle];
+    N2 -> N3 [label="E"];
+    N3 [shape=doublecircle];
+    N2 -> N0 [label="E"];
+    N0 [shape=circle];
+    N0 -> N1 [label="a"];
+    N1 [shape=circle];
+    N1 -> N3 [label="E"];
+    N1 -> N0 [label="E"];
+}

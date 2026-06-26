@@ -1,0 +1,28 @@
+digraph AFN {
+    rankdir=LR;
+    node [style=filled, fillcolor=white];
+    inicio [shape=point];
+    inicio -> N8;
+    N8 [shape=circle];
+    N8 -> N6 [label="E"];
+    N6 [shape=circle];
+    N6 -> N7 [label="E"];
+    N7 [shape=circle];
+    N7 -> N9 [label="E"];
+    N9 [shape=doublecircle];
+    N6 -> N4 [label="E"];
+    N4 [shape=circle];
+    N4 -> N5 [label="c"];
+    N5 [shape=circle];
+    N5 -> N7 [label="E"];
+    N5 -> N4 [label="E"];
+    N8 -> N0 [label="E"];
+    N0 [shape=circle];
+    N0 -> N1 [label="a"];
+    N1 [shape=circle];
+    N1 -> N2 [label="E"];
+    N2 [shape=circle];
+    N2 -> N3 [label="b"];
+    N3 [shape=circle];
+    N3 -> N9 [label="E"];
+}

@@ -1,0 +1,10 @@
+digraph AFD {
+    rankdir=LR;
+    node [style=filled, fillcolor=lightblue];
+    inicio [shape=point];
+    inicio -> D0;
+    D0 [shape=circle];
+    D0 -> D1 [label="b"];
+    D1 [shape=doublecircle];
+    D0 -> D1 [label="a"];
+}

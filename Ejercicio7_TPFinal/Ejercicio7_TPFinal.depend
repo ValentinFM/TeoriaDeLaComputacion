@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1782512293 source:c:\users\valen\onedrive\escritorio\documentos\facultad\4to año 1er cutrimestre\teoria de la computacion\thompson\tpfinal\ejercicio7_tpfinal\main.c
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+

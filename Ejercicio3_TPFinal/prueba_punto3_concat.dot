@@ -1,0 +1,12 @@
+digraph AFN {
+    rankdir=LR;
+    inic [shape=point];
+    inic -> q0;
+    q0 [shape=circle];
+    q0 -> q1 [label="a"];
+    q1 [shape=circle];
+    q1 -> q2 [label="E"];
+    q2 [shape=circle];
+    q2 -> q3 [label="b"];
+    q3 [shape=doublecircle];
+}
